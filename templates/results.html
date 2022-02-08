@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/main.css">
+    <title>Document</title>
+</head>
+<body class="index resultpage">   
+    <nav><h1 style='text-align:center'>TOP 10 {{input}} Videos </h1></nav>
+     
+
+    <div id=box_div class="detail">
+
+        {% for id in video_ids%} 
+        <iframe width="30%" height="380" src="https://www.youtube.com/embed/{{id}}" frameborder="0" allowfullscreen id="box_frame" style="padding:1rem 1rem"></iframe>
+        {%endfor%}
+    </div>
+    
+</body>
+</html>
+
+    
+
