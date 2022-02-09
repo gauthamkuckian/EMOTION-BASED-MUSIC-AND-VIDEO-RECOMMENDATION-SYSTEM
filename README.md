@@ -137,4 +137,4 @@ Werkzeug                2.0.2
 wheel                   0.37.0
 wrapt                   1.12.1
 
-also you need to set you youtube and spotify developers accounts for using api.
+also you need to set your youtube and spotify developers accounts for using api.
